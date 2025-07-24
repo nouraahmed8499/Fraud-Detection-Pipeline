@@ -25,3 +25,10 @@ fraud-detection/\
 - **DBeaver** – for querying the database
 - **Matplotlib, Seaborn** – for data visualization
 
+
+## Build and run Docker Image
+'''bash
+docker build -t fraud-detection-linux .
+
+docker run -it --rm fraud-detection-linux
+'''
