@@ -26,9 +26,7 @@ fraud-detection/\
 - **Matplotlib, Seaborn** – for data visualization
 
 
-## Build and run Docker Image
-'''bash
-docker build -t fraud-detection-linux .
-
-docker run -it --rm fraud-detection-linux
-'''
+## Build and run Docker Image, airflow and postgres containers
+``` bash
+docker-compose up --build
+```
