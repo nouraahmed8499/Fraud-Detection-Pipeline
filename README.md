@@ -5,13 +5,14 @@ This project implements a complete fraud detection system, from data ingestion a
 ## Project Structure
 fraud-detection/\
 ├── dags/ # Airflow DAGs for data ingestion\
-├── docker/ # Docker setup for local environment\
 ├── notebooks/ # EDA, feature engineering, and modeling\
 ├── scripts/ # Python utilities for feature generation and DB interaction\
 ├── data/ # Raw .pkl data files\
-├── db/ # PostgreSQL setup\
+├── logs/ # Airflow logs\
+├── .gitignore # ignoring unnecessary files and folders\
+├── docker-compose.yaml # Docker setup for local environment\
 ├── requirements.txt # Python dependencies\
-└── README.md # Project overview\
+└── README.md # Project overview
 
 
 ## Technologies Used
