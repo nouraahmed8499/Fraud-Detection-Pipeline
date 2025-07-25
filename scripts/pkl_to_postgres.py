@@ -18,7 +18,7 @@ DEFAULT_DB = 'postgres'
 
 def create_database_if_not_exists():
     """
-    Connects to the default DB and creates the target DB if it does not exist.
+    connects to the default DB and creates the target DB if it does not exist.
     """
     conn = psycopg2.connect(
         dbname=DEFAULT_DB,
