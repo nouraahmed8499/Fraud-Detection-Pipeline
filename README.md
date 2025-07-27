@@ -3,6 +3,7 @@
 This project implements a complete fraud detection system, from data ingestion and processing to feature engineering, machine learning modeling, and evaluation. The goal is to accurately identify potentially fraudulent financial transactions using historical transaction data and engineered behavioral features.
 
 ## Project Structure
+```
 fraud-detection-pipeline/\
 ├── dags/ # Airflow DAGs for data ingestion\
 ├── notebooks/ # EDA, feature engineering, and modeling\
@@ -15,7 +16,7 @@ fraud-detection-pipeline/\
 ├── docker-compose.yaml # Docker setup for local environment\
 ├── requirements.txt # Python dependencies\
 └── README.md # Project overview
-
+```
 
 ## Technologies Used
 
