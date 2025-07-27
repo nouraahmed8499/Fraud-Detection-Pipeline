@@ -6,8 +6,8 @@ This project implements a complete fraud detection system, from data ingestion a
 fraud-detection-pipeline/\
 ├── dags/ # Airflow DAGs for data ingestion\
 ├── notebooks/ # EDA, feature engineering, and modeling\
-|    ├── EDA.ipynb       # EDA + feature engineering in one place
-|    ├── Feature Engineering, Modeling and Evaluation.ipynb.ipynb # Baseline and advanced models, Metrics, plots, final notes
+|    ├── EDA.ipynb       # EDA + feature engineering in one place\
+|    ├── Feature Engineering, Modeling and Evaluation.ipynb.ipynb # Baseline and advanced models, Metrics, plots, final notes\
 ├── scripts/ # Python utilities for feature generation and DB interaction\
 ├── data/ # Raw .pkl data files\
 ├── logs/ # Airflow logs\
