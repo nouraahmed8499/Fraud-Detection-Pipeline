@@ -61,9 +61,11 @@ fraud-detection-pipeline/
 
 ### Data Pipeline Flow
 1. **Data Ingestion**: Reads multiple .pkl files containing transaction data
-2. **Data Aggregation**: Combines data into a unified DataFrame
-3. **Data Validation**: Checks for data quality and consistency
-4. **Database Storage**: Writes processed data to PostgreSQL
+      1. **Data Aggregation**: Combines data into a unified DataFrame
+      2. **Data Validation**: Checks for data quality and consistency
+      3. **Database Storage**: Writes processed data to PostgreSQL
+2. **EDA**:
+      1. **Data Validation**: Checks for data quality and consistency
 5. **Feature Engineering**: Generates behavioral and temporal features
 6. **Model Training**: Trains fraud detection models
 7. **Evaluation**: Assesses model performance and generates reports
