@@ -67,7 +67,7 @@ fraud-detection-pipeline/
 5. **Feature Engineering**: Generates behavioral and temporal features
 6. **Model Training**: Trains fraud detection models
 7. **Evaluation**: Assesses model performance and generates reports
-![alt text](src\img\pipeline.png)
+![alt text](src/img/pipeline.png)
 
 
 ## Key Features
