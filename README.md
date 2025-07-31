@@ -7,11 +7,17 @@ This project implements a complete fraud detection system, from data ingestion a
 fraud-detection-pipeline/
 ├── dags/ # Airflow DAGs for data ingestion
 ├── notebooks/ # EDA, feature engineering, and modeling
-|    ├── EDA.ipynb       # EDA + feature engineering in one place
+|    ├── EDA.ipynb       # Exploratory Data Analysis 
 |    ├── Feature Engineering, Modeling and Evaluation.ipynb.ipynb # Baseline and advanced models, Metrics, plots, final notes
 ├── scripts/ # Python utilities for feature generation and DB interaction
 ├── data/ # Raw .pkl data files
 ├── logs/ # Airflow logs
+├── src/
+   ├── imgs/
+├── ouput/ # Airflow logs
+   ├── eda/
+   ├── feature_engineering/
+   ├── modeling/
 ├── .gitignore # ignoring unnecessary files and folders
 ├── docker-compose.yaml # Docker setup for local environment
 ├── requirements.txt # Python dependencies
@@ -25,7 +31,7 @@ fraud-detection-pipeline/
 - **Apache Airflow** – for orchestrating data ingestion
 - **PostgreSQL** – for structured storage
 - **Pandas, NumPy** – for data manipulation
-- **Scikit-learn, XGBoost** – for machine learning
+- **Scikit-learn** – for machine learning
 - **DBeaver** – for querying the database
 - **Matplotlib, Seaborn** – for data visualization
 
